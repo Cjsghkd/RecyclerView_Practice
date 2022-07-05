@@ -11,7 +11,7 @@ class MainActivity_01 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_01)
+        setContentView(R.layout.activity_main01)
         initRecycler()
     }
 
