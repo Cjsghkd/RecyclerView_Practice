@@ -11,6 +11,9 @@
         android:theme="@style/Theme.RecyclerView_Practice">
         <activity
             android:name=".MainActivity_01"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_02"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
