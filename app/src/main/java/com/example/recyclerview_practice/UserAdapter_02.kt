@@ -36,6 +36,10 @@ class UserAdapter_02(private val items : ArrayList<UserData_02>) : RecyclerView.
             id.text = item.id
             name.text = item.name
             view.setOnClickListener(listener)
+
+            view.setOnClickListener {
+                Toast.makeText(it.context, "Clicked -> ID : ${item.id}, NAME : ${item.name}", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 }
